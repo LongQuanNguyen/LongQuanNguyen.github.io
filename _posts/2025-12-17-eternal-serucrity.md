@@ -20,7 +20,7 @@ pin: false          # Pin to homepage (true/false)
 ## Introduction
 Eternal security, often referred to as “once saved, always saved,” is the belief that a true follower of Christ can have full assurance of salvation.
 
-In this post, I will explain what eternal security is, how a person can have it, and how one can know with certainty that it is theirs.
+In this post, I will discuss what eternal security is, how a person can have it, and how one can know with certainty that it is theirs.
 
 ## What does it mean to be Eternal?
 Eternal means lasting forever - unchanging and constant. Eternal is a characteristics of God, and only God could grant blessings that are truly eternal. "For I am the Lord, I change not; therefore ye sons of Jacob are not consumed."(Malachi 3:6-18)
@@ -43,7 +43,7 @@ A gift cannot be earned, and eternal security is no exception. We do not work ou
 
 Rather, we can only receive it by faith, confessing in the name of the Lord. "That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved. For with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation."(Romans 10:9-10)
 
-## How can we have assurance of eternal security?
+## How can we have assurance of Eternal Security?
 The gift of salvation—and eternal security—is the greatest gift of all. We can never lose it, because the Giver Himself is keeping it for us. "Who are kept by the power of God through faith unto salvation ready to be revealed in the last time."(1 Peter 1:5)
 He takes extra care to seal this gift within us. " In whom ye also trusted, after that ye heard the word of truth, the gospel of your salvation: in whom also after that ye believed, ye were sealed with that holy Spirit of promise, Which is the earnest of our inheritance until the redemption of the purchased possession, unto the praise of his glory." (Ephesians 1:13-14)
 
