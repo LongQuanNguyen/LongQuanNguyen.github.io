@@ -15,4 +15,4 @@ My interest varies in many areas, like the questions of identity and one's purpo
 
 This blog is where I document my struggle and learning, for my own future reference. I also start this blog because of the need to exercise my brain, as writing is crystallized thinking. Apparently, I have not used my brain that much since the rise of LLMs and Chat Bots.
 
-I hope my future self and you kind readers will find one of the blogs useful. 
+I hope my future self and you kind readers will find one of the blogs useful.

@@ -78,4 +78,65 @@ This interactive list is arranged in a time line manner, i.e when to what. The c
 - Only stop to help a stranger after checking the surroundings. Avoid stopping if in a middle of nowhere; and if a woman is waving for help, just keep on going. It is too sus and has high chance of getting jumped.
 - Before attempt something reckless, think of cơm tấm sườn bì chả trứng with de extra cơm.
 
-{% include interactive-task-list-js.html %}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  function enableTaskListIcons() {
+    function toggleIcon(icon, check) {
+      if (check) {
+        icon.classList.remove("fa-circle", "far");
+        icon.classList.add("fa-check-circle", "fas", "checked");
+      } else {
+        icon.classList.remove("fa-check-circle", "fas", "checked");
+        icon.classList.add("fa-circle", "far");
+      }
+    }
+    function getImmediateChildIcons(parentLi) {
+      const childLis = Array.from(parentLi.children).filter(
+        (li) => li.tagName === "UL" || li.tagName === "LI"
+      );
+      let icons = [];
+      childLis.forEach((el) => {
+        if (el.tagName === "UL") {
+          icons.push(
+            ...Array.from(el.children)
+              .filter((li) => li.classList.contains("task-list-item"))
+              .map((li) => li.querySelector("i"))
+              .filter(Boolean)
+          );
+        }
+      });
+      return icons;
+    }
+    function allChildrenChecked(parentLi) {
+      const children = getImmediateChildIcons(parentLi);
+      if (!children.length) return false;
+      return children.every((icon) => icon.classList.contains("fa-check-circle"));
+    }
+    function updateParent(parentItem) {
+      const parentIcon = parentItem.querySelector("i");
+      if (!parentIcon) return;
+      toggleIcon(parentIcon, allChildrenChecked(parentItem));
+      const grandParent = parentItem.parentElement.closest(".task-list-item");
+      if (grandParent) updateParent(grandParent);
+    }
+    document.querySelectorAll(".task-list-item").forEach((item) => {
+      const icon = item.querySelector("i");
+      if (!icon) return;
+      icon.style.cursor = "pointer";
+      icon.onclick = (e) => {
+        e.stopPropagation();
+        const childIcons = getImmediateChildIcons(item);
+        const isParent = childIcons.length > 0;
+        const newState = !icon.classList.contains("fa-check-circle");
+        toggleIcon(icon, newState);
+        if (isParent) {
+          childIcons.forEach((childIcon) => toggleIcon(childIcon, newState));
+        }
+        const parentItem = item.parentElement.closest(".task-list-item");
+        if (parentItem) updateParent(parentItem);
+      };
+    });
+  }
+  enableTaskListIcons();
+});
+</script>
