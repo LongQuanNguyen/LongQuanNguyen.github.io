@@ -1,6 +1,6 @@
 ---
 # ===== Required =====
-title: "Winter Long Driving Todo Check List"
+title: "Winter Long Driving Todo List"
 date: 2025-12-24 18:00:00 -0600
 
 # Max 2 levels only
@@ -20,27 +20,28 @@ pin: false          # Pin to homepage (true/false)
 ![winter_driving](assets/img/winter.png)
 
 ## Foreword
-This is my safety to-do check list to make long winter driving in Canada less intimidating, so that I don't die, and therefore do more traveling. 
+This is my safety to-do list to make long winter driving less intimidating, so that I don't die, and therefore do more driving. 
 
-This interactive list is arranged in a time line manner, i.e when to what. The checked boxes will reset if the page is refresh.
+This interactive check list is arranged in a time line manner, i.e when to what. The checked boxes/circles reset as the page refresh. The parent boxes will be automatically checked if all the sub boxes are checked. If the parent box is checked, all the sub boxes automatically get checked.
 
 ## A Day before travel
 - [ ] Vehicle Works:
   - [ ] Check engine oil level (5W-20)
   - [ ] Check coolant/antifreeze fluid level
-  - [ ] Check break fluid level (dot 4)
+  - [ ] Check brake fluid level (dot 4)
   - [ ] Check windshield fluid level
   - [ ] Check tires pressure (32 psi)
   - [ ] Check spare tire pressure (60 psi)
   - [ ] Check wheel lug nuts tightness (80 ft-lbs)
   - [ ] Fill up gas (87)
   - [ ] Plug in car oil pan heater and battery charger
+  - [ ] Remove ice in driver floor mat
   - [ ] Remove build up snow blocks in the fencers
 
 - [ ] Emergency Items:
-  - [ ] Headlamps
+  - [ ] Headlamps (fully charged)
   - [ ] Tires patch kit
-  - [ ] Portable tire pumps (full charge)
+  - [ ] Portable tire pumps (fully charged)
   - [ ] Car battery jump cables
   - [ ] Extra winter gloves
   - [ ] Extra dry socks
@@ -73,10 +74,16 @@ This interactive list is arranged in a time line manner, i.e when to what. The c
   - [ ] Share location to a trusty fam/friend
 
 ## During travel
-- (Optional) Abide speed limits
-- (Optional) Don't die
-- Only stop to help a stranger after checking the surroundings. Avoid stopping if in a middle of nowhere; and if a woman is waving for help, just keep on going. It is too sus and has high chance of getting jumped.
-- Before attempt something reckless, think of cơm tấm sườn bì chả trứng with de extra cơm.
+- Brake early, brake gently and accelerate smoothly, giving time for tires to gain traction.
+- Turn on fog lights when passing incoming big vehicles, helping with visibility.
+- Shift to low gear when go down a long slope, preventing brake overheat/failures.
+- Release both gas and brake, steer then put on awd when car start to slip.
+- Switch off high beam proactively for incoming traffic at night. It doesn't have to be two blind idiots.
+- Keep good distance with big vehicles ahead, they tend to shoot rocks up.
+- Fight the urge to speed, think of merit points and insurance discount.
+- Wave and thank to people that slow down for my lane change/merge. It costs nothing to do.
+- Don't chug the Monster can.
+- (Optional) don't die.
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
